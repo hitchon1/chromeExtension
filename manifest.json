@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Lead Entry",
+    "version": "1.0",
+    "description": "Send Lead Data Entry to GSheets",
+    "permissions": ["activeTab", "storage", "http://*/*", "https://*/*"],
+    "background": {
+      "service_worker": "popup.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  }
+  

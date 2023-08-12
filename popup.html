@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <body>
+    <h2>Sales Lead Entry Form</h2>
+    Lead Name: <input type="text" id="leadName"><br>
+    Company: <input type="text" id="company"><br>
+    Email: <input type="email" id="email"><br>
+    Phone Number: <input type="tel" id="phoneNumber"><br>
+    Product of Interest: <input type="text" id="product"><br>
+    Estimated Deal Size ($): <input type="number" id="dealSize"><br>
+    Lead Source: <select id="leadSource">
+        <option value="website">Website</option>
+        <option value="referral">Referral</option>
+        <option value="trade_show">Trade Show</option>
+        <option value="cold_call">Cold Call</option>
+        <!-- Add more options as required -->
+    </select><br>
+    Contact Date: <input type="date" id="contactDate"><br>
+    Notes: <textarea id="notes" rows="4" cols="50"></textarea><br>
+
+    <button id="submitLead">Submit</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
